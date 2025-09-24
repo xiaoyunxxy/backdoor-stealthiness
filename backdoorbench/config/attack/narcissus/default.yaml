@@ -1,0 +1,7 @@
+attack_label_trans: all2one
+attack_target: 0
+pratio: 0.005
+attack: narcissus
+attack_trigger_path: ./resource/narcissus/resnet18_trigger.npy
+epsilon: 16
+test_magnifier: 3

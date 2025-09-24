@@ -1,0 +1,8 @@
+attack: wanet
+attack_label_trans: all2one
+cross_ratio: 2  # rho_a = pratio, rho_n = pratio * cross_ratio
+random_rotation: 10
+random_crop: 4
+s: 0.5
+k: 4
+grid_rescale: 1

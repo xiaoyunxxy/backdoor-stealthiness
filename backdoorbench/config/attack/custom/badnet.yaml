@@ -1,0 +1,3 @@
+attack_label_trans: all2one
+attack: badnet
+# patch_path: ./resource/badnet/white_square_{32|64} depending on dataset img size (see train.sh)

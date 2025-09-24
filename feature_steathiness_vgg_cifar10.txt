@@ -1,0 +1,2 @@
+feature_results_ss:  {'badnet_p0.05': 0.5149106, 'blended_p0.05': 0.5235727, 'wanet_p0.05': 0.3983842, 'bpp_p0.05': 0.32965502, 'adaptive_patch_p0.05': 0.25677717, 'adaptive_blend_p0.05': 0.24316639}
+feature_results_dswd:  {'badnet_p0.05': 2.7839606869195466, 'blended_p0.05': 2.7116291449125316, 'wanet_p0.05': 1.9777693879174814, 'bpp_p0.05': 1.1708230184055037, 'adaptive_patch_p0.05': 0.7417169064476857, 'adaptive_blend_p0.05': 1.2836714867386927}

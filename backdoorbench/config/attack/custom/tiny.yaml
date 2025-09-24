@@ -1,0 +1,28 @@
+# Device
+device: cuda:0
+
+# Data
+dataset_path: ./data
+batch_size: 256
+
+# Optimizer
+lr: 0.01
+client_optimizer: sgd
+sgd_momentum: 0.9
+wd: 0.0005
+
+# Learning rate scheduler
+lr_scheduler: CosineAnnealingLR
+cos_t_max: 100
+
+# Misc
+num_workers: 6
+pin_memory: True
+non_blocking: True
+prefetch: False
+amp: False
+frequency_save: 0
+random_seed: 0
+
+# vit
+patch_size: 8

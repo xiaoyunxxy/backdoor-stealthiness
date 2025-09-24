@@ -1,0 +1,8 @@
+matplotlib==3.8.1
+numpy==1.26.4
+pandas==2.2.3
+pillow==11.0.0
+scikit-learn==1.5.2
+scipy==1.11.2
+tensorboard==2.18.0
+tqdm==4.66.1

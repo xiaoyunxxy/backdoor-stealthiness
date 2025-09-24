@@ -1,0 +1,5 @@
+attack_label_trans: all2one
+attack: blended
+attack_train_blended_alpha: 0.2
+attack_test_blended_alpha: 0.2
+# attack_trigger_img_path: ./resource/blended/hellokitty_{32|64}.png depending on dataset img size (see train.sh)

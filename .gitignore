@@ -1,0 +1,8 @@
+# Cache
+__pycache__
+code/.ipynb_checkpoints/
+
+# Datasets and results
+data
+results
+

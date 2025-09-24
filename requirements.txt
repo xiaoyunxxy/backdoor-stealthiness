@@ -1,0 +1,16 @@
+ImageHash
+ipykernel
+lpips
+matplotlib
+pandas
+POT
+scikit-image
+scikit-learn
+scipy
+torch
+torchmetrics
+torchvision
+
+# necessary because of importing backdoorbench save_prototype_result, not actually used
+seaborn
+umap-learn

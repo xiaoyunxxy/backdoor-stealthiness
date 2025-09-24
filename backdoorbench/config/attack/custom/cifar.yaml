@@ -1,0 +1,31 @@
+# Device
+device: cuda:0
+
+# Data
+dataset_path: ./data
+batch_size: 100
+
+# Optimizer
+lr: 0.01
+client_optimizer: sgd
+sgd_momentum: 0.9
+wd: 0.0005
+
+# Learning rate scheduler
+lr_scheduler: MultiStepLR
+steplr_milestones:
+  - 100
+  - 150
+steplr_gamma: 0.1
+
+# Misc
+num_workers: 2
+pin_memory: True
+non_blocking: True
+prefetch: False
+amp: False
+frequency_save: 0
+random_seed: 0
+
+# vit
+patch_size: 4
