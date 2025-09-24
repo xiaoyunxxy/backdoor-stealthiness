@@ -1,16 +1,18 @@
 # Stealthiness of Backdoor Attacks Against Image Classification
-This repository contains the code I used to evaluate the stealthiness of backdoor attacks in my master's thesis.
+This repository contains the code for ```Quiet Triggers, Loud Footprints: On Backdoor Attacks Stealthiness in Image Domain```
 
 ## Features
-The code supports 2 model architectures, 3 datasets, 10 backdoor attacks and 16 stealthiness metrics, which are all listed below.
+The code supports 3 model architectures, 4 datasets, 10 backdoor attacks and 16 stealthiness metrics, which are all listed below.
 
 ### Model Architectures
 - ResNet18
 - VGG16
+- ViT-Small
 
 ### Datasets
 - CIFAR-10
 - CIFAR-100
+- Tiny-ImageNet
 - Imagenette
 
 ### Attacks
