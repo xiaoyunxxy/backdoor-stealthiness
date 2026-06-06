@@ -48,3 +48,18 @@ The backdoor attacks can be performed by using the `train.sh` scripts in the `ad
 
 ## Usage
 The code for the stealthiness evaluation is located in the [eval.ipynb](eval.ipynb) Jupyter notebook. The model architecture and dataset to perform the evaluation with can be configured in the code block below the "Experiment settings" header. This code also makes it possible to exclude specific attacks from the evaluation by removing them from the list.
+
+
+## New attack checklist:
+- produce model artifact
+- produce poisoned train/test artifact
+- expose poison indices and target labels
+- implement BackdoorDataset wrapper or save BackdoorBench attack_result.pt
+- register loader in attack registry
+
+## New metric checklist:
+- declare metric space: input / feature / parameter
+- declare consumed artifact keys
+- return scalar or per-sample vector
+- add to metric registry
+- include directionality: higher means more/less stealthy
